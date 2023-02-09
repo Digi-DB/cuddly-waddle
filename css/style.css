@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+ background-image: url("../img/background.jpg");
+ background-size: contain;
+}
+
+/* navigation bar styling*/
+.nav_bar li {
+  display: inline-block;
+  background-color: rgb(30, 40, 56);
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(143, 157, 187);
+  padding: 10px;
+}
+
+.nav_bar li a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav_bar li a:hover {
+  font-size: 22px;
+  color: rgb(171, 139, 107);
+}
+/* navigation bar styling end */
+
+/* content styling */
+
+.cassini_info {
+  color: rgb(212, 212, 226);
+  background-color: black;
+  padding: 10px 30px;
+  margin: auto;
+  width: 70%;
+  font-style: bold;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.jupiter_cont p {
+  color: rgb(212, 212, 226);
+  background-color: black;
+  padding: 10px 30px;
+  margin: auto;
+  width: 70%;
+  font-style: bold;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.saturn_cont p {
+  color: rgb(212, 212, 226);
+  background-color: black;
+  padding: 10px 30px;
+  margin: auto;
+  width: 70%;
+  font-style: bold;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.titan_cont p {
+  color: rgb(212, 212, 226);
+  background-color: black;
+  padding: 10px 30px;
+  margin: auto;
+  width: 70%;
+  font-style: bold;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+/* content styling end */
